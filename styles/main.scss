@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.custome-card:hover, .custome-card:active{
+  background: linear-gradient(113.61deg,#055b83 -20.85%,#05bbd3 112.45%);
+  box-shadow: none;
+  color: #fff!important;
+}
+.custome-card:hover #img-row, .custome-card:active  #img-row{
+  display: none;
+}
